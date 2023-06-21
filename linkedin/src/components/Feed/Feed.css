@@ -1,0 +1,111 @@
+.feed {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.feed__post {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.feed__post-posting__section {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#feed__post-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    width: 70px;
+    margin-top: -8px;
+    height: 70px;
+}
+
+.feed__post-posting__section input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(220, 220, 220);
+    border-radius: 15px;
+    padding-left: 10px;
+    outline: none;
+    width: 500px;
+    height: 45px;
+    transition: all 0.2s ease-in-out;
+}
+
+.feed__post-posting__section input:hover {
+    background-color: rgb(225, 225, 225);
+}
+
+.feed__post-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feed__post-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.feed__post-link:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+.feed__post-link__icon {
+    display: flex;
+    margin-right: 10px;
+}
+
+.feed__post-link__text {
+    font-size: 1.2rem;
+}
+
+.sorting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    font-size: 0.8rem;
+    align-items: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+hr {
+    border: 0;
+    clear: both;
+    display: block;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: rgb(220, 220, 220);
+    height: 2px;
+}
