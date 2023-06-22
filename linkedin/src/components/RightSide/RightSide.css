@@ -1,0 +1,94 @@
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    flex: 0.23;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+}
+
+.rightSide__component {
+    display: flex;
+    flex-direction: column;
+    flex: 0.23;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.rightSide__addToFeed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rightSide__contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSide__content {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 10px;
+}
+
+.rightSide__content-texts {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.rightSide__content-rowText {
+    display: flex;
+    flex-direction: row;
+}
+
+.rightSide__content-rowText > * {
+    display: flex;
+    padding-right: 10px;
+}
+
+.rightSide__content-button {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid rgb(180, 180, 180);
+    background-color: #fff;
+    color: rgb(72, 72, 72);
+    outline: none;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 110px;
+    height: 35px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+}
+
+.rightSide__content-button:hover {
+    background-color: rgb(200, 200, 200);
+    border: 2px solid rgb(180, 180, 180);
+}
+
+.rightSide__recommendations {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: left;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}

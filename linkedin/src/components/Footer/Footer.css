@@ -1,0 +1,51 @@
+.footer__links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    margin-top: 20px;
+}
+
+.footer__dropdown {
+    display: flex;
+    align-items: center;
+}
+
+.footer__dropdown:hover #dropdown__icon {
+    color: #0a66c2 !important;
+}
+
+ul.footer__links > li:hover {
+    color: #0a66c2;
+    text-decoration: underline;
+    text-decoration-color: #0a66c2;
+}
+
+.footer__links > * {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.footer__logo {
+    display: flex;
+    width: 60px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.company__component {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.company__component > * {
+    display: flex;
+    padding-right: 10px;
+}
