@@ -11,8 +11,6 @@
     min-width: 310px;
     width: fit-content;
     height: fit-content;
-    align-items: center;
-    justify-content: center;
     text-align: center;
     border: 2px solid rgb(240, 240, 240);
     border-radius: 5px;
@@ -59,12 +57,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 10px;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
-    height: 30px;
+    height: 40px;
+}
+
+.sidebar__stat > * {
+    margin: 0px 30px;
+}
+
+.sidebar__stat:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .connections__numbers {
@@ -77,8 +81,13 @@
     height: 40px;
     align-items: center;
     text-align-last: left;
-    margin-left: 20px;
     border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid rgb(240, 240, 240);
+    overflow: hidden;
+}
+
+.leftside__profile-status__myitems:hover {
+    background-color: rgb(240, 240, 240);
 }
 
 .myitems__icon {
@@ -97,7 +106,6 @@
     border-radius: 5px;
     margin-left: 50px;
     margin-top: 50px;
-    padding-left: 20px;
     padding-top: 20px;
     margin-bottom: 30px;
     color: gray;
@@ -110,9 +118,22 @@
 
 .leftside__content-recentItem {
     display: flex;
-    margin: 5px 0;
+    margin: 5px 0px;
+    width: 100%;
+    height: 40px;
     text-align: center;
+    padding-left: 0;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.leftside__content-recentItem > * {
+    margin-left: 10px;
+}
+
+.leftside__content-recentItem:hover {
+    color: black;
+    background-color: rgb(240, 240, 240);
 }
 
 .leftside__content-icon {
@@ -122,8 +143,21 @@
 .leftside__content-groupsItem {
     display: flex;
     margin: 5px 0;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
     text-align: center;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.leftside__content-groupsItem > * {
+    margin-left: 10px;
+}
+
+.leftside__content-groupsItem:hover {
+    color: black;
+    background-color: rgb(240, 240, 240);
 }
 
 #showmore__bottom {
@@ -133,4 +167,11 @@
 #event__bottom {
     display: flex !important;
     justify-content: space-between !important;
+}
+
+#event__bottom:hover {
+    color: #0a66c2;
+    text-decoration: underline;
+    text-decoration-color: #0a66c2;
+    background-color: #fff;
 }

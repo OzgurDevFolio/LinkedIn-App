@@ -25,21 +25,23 @@ const LeftSide = () => {
                             <p className="connections__text">Connections</p>
                             <p className="connections__numbers">20</p>
                         </div>
-                        <p className="connections__text sidebar__stat">Grow Your Network</p>
+                        <div className="sidebar__stat">
+                            <p className="connections__text">Grow Your Network</p>
+                        </div>
                         <div className="sidebar__stat">
                             <p className="connections__text">Invitations</p>
                             <p className="connections__numbers">1</p>
                         </div>
                     </div>
                     <div className="leftside__profile-status__myitems">
-                        <BookmarkIcon className="myitems__icon" />
+                        <BookmarkIcon className="myitems__icon" style={{ marginLeft: '20px' }} />
                         <span style={{ color: 'black' }}>My Items</span>
                     </div>
                 </div>
                 {/** Sticky */}
                 <div className="leftside__content">
                     <div className="leftside__content-recent">
-                        <h3 style={{ fontWeight: 'lighter', color: 'black', margin: '20px 0', color: '#0a66c2' }}>Recent</h3>
+                        <h3 style={{ fontWeight: 'lighter', color: 'black', margin: '20px 0 0 10px', color: '#0a66c2' }}>Recent</h3>
                         <ul className="sidebar__elements">
                             <li className="leftside__content-recentItem">
                                 <GroupsIcon className="leftside__content-icon" />
@@ -60,7 +62,7 @@ const LeftSide = () => {
                         </ul>
                     </div>
                     <div className="leftside__content-groups">
-                        <h3 style={{ fontWeight: 'lighter', color: 'black', margin: '20px 0px', color: '#0a66c2' }}>Groups</h3>
+                        <h3 style={{ fontWeight: 'lighter', color: 'black', margin: '20px 0 0 10px', color: '#0a66c2' }}>Groups</h3>
                         <ul>
                             <li className="leftside__content-groupsItem">
                                 <GroupsIcon className="leftside__content-icon" />

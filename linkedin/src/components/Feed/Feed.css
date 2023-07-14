@@ -43,6 +43,7 @@
     outline: none;
     width: 500px;
     height: 45px;
+    cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 

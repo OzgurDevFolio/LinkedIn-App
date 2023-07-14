@@ -4,7 +4,6 @@ import Navbar from './components/Navbar/Navbar'
 import LeftSide from './components/LeftSide/LeftSide'
 import Feed from './components/Feed/Feed'
 import RightSide from './components/RightSide/RightSide'
-import MessageBox from './components/MessageBox/MessageBox'
 
 function App() {
     return (
@@ -14,7 +13,6 @@ function App() {
                 <LeftSide />
                 <Feed />
                 <RightSide />
-                <MessageBox />
             </div>
         </>
     )
