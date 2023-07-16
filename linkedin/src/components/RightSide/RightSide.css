@@ -92,3 +92,9 @@
     margin-top: 10px;
     font-size: 1.3rem;
 }
+
+@media (max-width: 1320px) {
+    .rightSide {
+        display: none;
+    }
+}

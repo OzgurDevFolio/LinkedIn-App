@@ -12,6 +12,8 @@
     display: flex;
     flex-direction: column;
     color: gray;
+    margin-right: 30px !important;
+    margin-left: 30px !important;
     border: 1px solid rgb(230, 230, 230);
     border-radius: 5px;
     background-color: #fff;
@@ -27,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
+    margin-right: 20px !important;
     width: 70px;
     margin-top: -8px;
     height: 70px;
@@ -44,6 +46,7 @@
     width: 500px;
     height: 45px;
     cursor: pointer;
+    margin-left: 10px;
     transition: all 0.2s ease-in-out;
 }
 
@@ -108,4 +111,212 @@ hr {
     margin-left: 25px;
     background-color: rgb(220, 220, 220);
     height: 2px;
+}
+
+.feed__post-posting__section-onclick {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    height: fit-content;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.post__onclick-section__top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row !important;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.post__onclick-section__informs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    padding: 5px;
+    transition: all 0.09s ease-in-out;
+}
+
+.post__onclick-section__informs:hover {
+    background-color: #ededed;
+}
+
+#feed__postBox-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.post__informs-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.post__informs-main__name {
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+}
+
+#closeIcon {
+    color: gray;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#closeIcon:hover {
+    background-color: #ededed;
+}
+
+.post__onclick-section__posting {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.messageBox {
+    display: flex;
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    font-size: 20px;
+}
+
+#emojiIcon {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#emojiIcon:hover {
+    background-color: #ededed;
+}
+
+.messageBox__icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-size: 25px;
+    color: gray;
+}
+
+.messageBox__icon {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    font-size: 50px !important;
+    background-color: rgb(232, 232, 232);
+    padding: 10px;
+    background-position: center;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.messageBox__icon:hover {
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+#for__line1 {
+    border: 0;
+    clear: both;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+    background-color: rgb(220, 220, 220);
+    height: 2px;
+}
+
+.posting__section {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+}
+
+#timeIcon {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 40px;
+    padding: 5px;
+    color: gray;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+#timeIcon:hover {
+    background-color: #ededed;
+}
+
+.postButton {
+    display: flex;
+    margin-right: 25px;
+    background-color: #0a66c2;
+    color: #fff;
+    margin-left: 25px;
+    justify-content: center;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.postButton:hover {
+    background-color: #0352a2;
+}
+
+@media (max-width: 1320px) {
+    .feed {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: -400px;
+    }
+
+    hr {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .feed {
+        flex: 0.7;
+    }
 }

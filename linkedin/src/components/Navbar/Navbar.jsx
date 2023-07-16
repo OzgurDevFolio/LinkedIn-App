@@ -21,6 +21,7 @@ const Navbar = () => {
                         <SearchIcon className="navbar__search-icon" />
                         <input type="text" placeholder="Search" />
                     </div>
+                    <SearchIcon className="navbar__search-icon" id="icon2" />
                 </div>
                 <div className="navbar__links">
                     <div className="navbar__home">
