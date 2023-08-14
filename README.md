@@ -22,3 +22,8 @@ The Tesla Clone Website replicates the look and feel of Tesla's official site us
 
 🌈 **Join the Future Today!**
 Explore our Tesla Clone Website and embark on a digital journey that echoes the revolutionary spirit of Tesla. 🚀⚡ Experience the future of transportation and sustainability, all from the comfort of your screen. Together, let's drive towards a greener, smarter, and more electrifying tomorrow! 🌏🔌🚗
+
+
+<img width="1440" alt="linkedinss" src="https://github.com/Ozgur32/LinkedIn-App/assets/121760057/bb04862e-efc8-4d4a-a199-2fb820e62cfa">
+
+<img width="620" alt="linkedinss1" src="https://github.com/Ozgur32/LinkedIn-App/assets/121760057/86c6640e-4d07-4409-8058-0b4f3eb8ee7b">
